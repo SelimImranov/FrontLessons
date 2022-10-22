@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: url(image/xhero.webp);
+    height: 95vh;
+    background-size: cover;
+    color: white;
+}
+.banner .text {
+    width: 40%;
+    padding-top: 13rem;
+    padding-left: 5rem;
+}
+.banner .text  .electro{
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner .text h1{
+    font-size: 3rem;
+    font-family:sans-serif ;
+    margin-bottom: 15px;
+   
+}
+.banner .text button{
+    border:1px solid red;
+    padding: 9px 2rem;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    
+    border-radius: 20px;
+    
+}
