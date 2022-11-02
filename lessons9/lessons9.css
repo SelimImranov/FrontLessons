@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-image: url(bgImg.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+header .parent{
+    display: flex;
+    background-color: white;
+    padding: top 2rem;
+}
+header .parent .logo{
+    width: 20%;
+    padding: 2rem;
+    text-shadow: 2px 2px 4px;
+}
+header .parent .menu{
+    width: 70%;
+    padding: 2rem;
+  text-shadow: 2px 2px 5px;
+  
+}
+header .parent .phone{
+    width: 20%;
+    background-color: #FFB606FF;
+    padding: 2rem;
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    
+}
+
+header nav{
+  padding: 1rem;
+   
+    
+}
+
+header .parent .logo img{
+    vertical-align: middle;
+}
+header .parent .menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+header .parent .menu ul li {
+       list-style: none;
+}
+header .parent .menu ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 19px;
+    color: green;
+}
+header .parent .logo h1{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+header .textbox h1{
+  color: white;
+  font-size: 4.5rem;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 8rem;
+}
+header .textbox h1 span{
+    background-color: #FFB606FF;
+}
+
+
+
+header .services {
+   display: flex;
+   justify-content: space-around;
+ margin-top: 7rem ;
+}
+ header .services .box{
+  width: 30%;
+  background-color: #1A1A1AFF;
+  display: flex;
+ margin-right: 20px;
+ }
+ 
+ header .services .icon{
+    width: 30%;
+    
+ }
+ header .services .text{
+    width: 60%;
+ }
+ header .services .text a{
+    text-decoration: none;
+ }
