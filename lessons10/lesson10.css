@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.parent{
+ display: flex;
+ justify-content: space-between;
+}
+.parent .box{
+  width: 30%;
+  position: relative;
+   background-color: white;
+    border-radius: 20px;
+ 
+}
+body{
+    background-color: #FFF2F9FF;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+   
+   
+}
+.parent .box .text{
+    padding: 0.5rem;
+}
+.parent .box .text h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#46438FFF;
+    
+}
+.parent .box .text p{
+    color: #787878FF;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.parent .box .text h3 {
+    margin-top: 10px;
+    
+}
+.parent .box .text{
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.box .date{
+    padding: 1rem;
+    background-color: #FF377BFF;
+    color: white;
+    width: 30%;
+    border-radius: 70px;
+    padding-top: 3px ;
+    padding-bottom: 13px;
+    position: absolute;
+    top: 4%;
+   
+   
+}
+.box .text .size{
+    display: flex;
+}
+.box .text .size b {
+   padding-top: 0px;
+   padding-bottom: 0px;
+   font-size: 20px;
+   padding-left: 35px;
+}
+.box .text .size p {
+    color:  #FF377BFF ;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 15px;
+    
+    
+}
