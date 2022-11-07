@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .parent .logo {
+    width: 20%;
+
+}
+
+header .parent .menu {
+    width: 60%;
+
+
+}
+
+header .parent .social {
+    width: 20%;
+
+}
+
+header .parent .menu .menubig {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+}
+
+header .parent .menu .menubig li a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header .parent .menu .menubig li {
+    list-style: none;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+header .parent .social ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+header nav {
+    background-color: azure;
+   color: black;
+    padding: 2rem;
+}
+
+header .parent .social ul li a {
+    position: relative;
+}
+
+
+header .parent .social ul li a span {
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -16px;
+    right: -10px;
+    padding: 0.1rem 0.3rem;
+    border-radius: 50%;
+
+}
+.lineRed{
+    border-bottom: 3px solid red ;
+   
+}
+header .menubig .dropdown{
+  background-color: black;
+  position: absolute;
+  top: 2rem;
+  display: none;
+}
+header .menubig .dropdown li{
+    padding: 0.2rem 0;
+}
+header .menubig .limenu{
+    position: relative;
+    height: 100%; 
+}
+header .menubig .limenu:hover .dropdown{
+    display: block;
+}
