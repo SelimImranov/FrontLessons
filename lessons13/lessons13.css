@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.contact{
+    margin: 25rem  ;
+    background-color: white ; 
+    width: 820px;
+    margin-right: 20px;
+    height: 900px;
+ 
+    
+}
+body{
+    background-color: #F1F1F1FF;
+}
+header .parent{
+   
+  }
+
+
+.contact .parent {
+ width: 100%;
+    
+}
+.navbar{
+    background-color: #F1F1F1FF;
+    padding: 3rem;
+}
+.navbartop{
+ display: flex; 
+ padding: 0 2rem;
+
+    
+}
+.navbarbottom{
+    display: flex;
+    padding: 0 1rem;
+    width: 100%;
+}
+.navbartop span{
+    margin:  0 10px;
+    
+  
+}
+.navbartop .left{
+    width: 70%;
+}
+.navbartop .right{
+    width: 30%;
+   
+}
+.navbartop .left b{
+    font-size: 30px;
+   margin-bottom: 12px;
+    
+}
+header .parent .navbartop .left img , b{
+    vertical-align:text-top;
+    display: inline-block;
+}
+header .parent .navbartop .left b{
+ letter-spacing:5px;
+ color: #012F3FFF;
+ font-family: 'Roboto Condensed', sans-serif;
+
+
+ 
+}
+header .parent .navbartop .left Span b{
+    color:  #012F3FFF ;
+    letter-spacing:5px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+     display: inline-block;
+     font-weight: bold;
+}
+header .parent .navbarbottom ul li {
+  list-style: none;
+  margin: 0 37px;
+  margin-top: 1.5rem;
+
+}
+
+
+header .parent .navbartop .right2{
+    padding-left: 30%;
+    padding-top: 30px;
+    color: #224285FF;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+header .parent .navbartop .right1 ,.right2 .icons .icons2{
+    display: flex;
+}
+
+header .parent .navbarbottom a{
+    text-decoration: none;
+    font-size: 1.3rem;
+   
+    color: #012F3FFF;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+header .parent .navbarbottom ul{
+    display: flex;
+    justify-content: first baseline ;
+}
+header .parent .navbarbottom ul li .green a {
+ color:#229E00FF ;   
+ margin-left: 0;
+}
+header .parent .navbarbottom ul li .green i{
+    color:#229E00FF ;   
+    margin-right: 2px;
+   vertical-align: middle;
+   padding-right: 10px;
+}
+header .parent .navbarbottom ul .po{
+    margin-left: 0;
+}
+
+
+hr{
+    border-bottom: 5px solid #5975B0FF;
+    margin-top: 35px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+    border-radius: 3px;
+}
+.contact .parent .top .txtsame{
+   margin-top: 50px;
+    width: 28%;
+ display: inline-block;
+   height: 46px;
+   border-radius: 3px;
+   background-color: #FAFAFAFF;
+   font-size: 1.3rem;
+   position: relative;
+   margin-left: 1rem;
+   
+}
+ label{
+    position: absolute;
+   color: #224285FF;
+   padding: 20px 10px 10px;
+   font-weight: bold;
+   font-size: 18px;
+   margin-left: 13px;
+   font-weight: 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
+
+.contact .parent .bottom .inpt{
+   display: inline-block;
+   width: 45%;
+   height: 46px;
+   margin-top: 60px;
+   font-size: 1.3rem;
+   border-radius: 3px;
+   position: relative;
+   margin-left: 1rem;
+   
+}
+
+.contact .parent .bot .botp{
+    width: 100%;
+    height: 46px; 
+    margin-top: 50px;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+.contact .parent .lipa .inpt{
+    display: inline-block;
+   width: 45%;
+   height: 46px;
+   margin-top: 40px;
+   font-size: 1.3rem;
+   margin-left: 1rem;
+}
+.contact .parent .big .right .textb{
+    height: 46px;
+    margin-top: 40px; ;
+    width: 9%;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+.contact .parent .text{
+    color: #224285FF;
+    padding-top:16px ;
+}
+.contact .parent .big .right .textp{
+    position: relative;
+    left: 12px;
+}
+
+.dre{
+    color: #224285FF;
+    display: contents;
+}
+.contact .parent .big .area textarea {
+    width: 95%;
+    resize: none;
+    margin: 2rem 0;
+    font-size: 1.3rem;
+}
+.area label{
+    position: absolute;
+    color: #224285FF;
+    /* padding: 20px 10px 10px; */
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 13px;
+}
