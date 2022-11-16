@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+  width: 90%;
+  margin: auto;
+}
+.clothes .parent , .boxsmall {
+    display: flex;
+    justify-content: space-between;
+}
+.clothes .box{
+    width: 20%;
+}
+ .boxsmall .boxinner{
+    width: 50% ;
+}
+.parent .box .boxinner span{
+    color: #E3C01CFF;
+}
+.box{
+    margin: 35px;
+}
+.box .boxsmall{
+    margin: 40px 0;
+}
+.box .boxsmall .boxinner p {
+  margin: 8px 0;
+  
+}
+.box .boxsmall .boxinner .flg{
+   margin:9px 0;
+}
+.shop .parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shop .parent .box {
+  width: 16.6%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.shop .parent .box{
+    margin: 25px 0;
+}
+.shop .parent .box:hover{
+   filter:opacity(0.1) ; 
+   transition: all 0.5s ;
+  
+}
+.shop .parent .box .hover:hover{
+  padding: 90px;
+  font-size: 20px;
+  
+}
+
+
+
+
