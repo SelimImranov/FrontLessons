@@ -1,0 +1,123 @@
+.col-md-2{
+    margin-bottom: 8%;
+}
+.col-md-2 h1{
+    font-family: "Poppins",sans-serif;
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 4px 7px;
+}
+.col-md-2 img{
+    margin-bottom: 1.8rem;
+}
+.col-md-2 p{
+   color: #7F85A8;
+   text-shadow: 3px 4px 7px;
+   font-size: 1.1rem;
+}
+button{
+    padding: 17px 42px;
+    color: #FD8F5FFF;
+    border: 1px solid #FD8F5FFF;
+    background-color: rgb(175, 50, 50);
+    font-size: 1rem;
+    margin-top: 3rem;
+ 
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: #FD8F5FFF ;  
+  
+  }
+
+
+
+
+.rick{
+    margin-top: 3%;
+}
+
+
+.rick  .text {
+text-align: center;
+margin-top: 5rem;
+}
+.rick  .text p{
+    color: gray;
+    font-size: 1.2rem;
+    text-shadow: 5px 4px 7px;
+}
+.rick  .text h1{
+    font-weight: 800;
+    font-family: "Poppins",sans-serif;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px #ff0000;
+    
+
+}
+.rick .row p{
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    color: #1A1A1AFF;
+    text-align: center;
+   
+    margin-top: 1rem;
+}
+
+.rick button {
+    padding: 17px 42px;
+    color: #FD8F5FFF;
+    border: 1px solid #FD8F5FFF;
+    background-color: rgb(94, 48, 48);
+    font-size: 1rem;
+    margin-left: 30rem;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.rick button a{
+    text-decoration: none;
+  
+  color: white;
+   
+}
+.rick button:hover{
+  background-color: #FD8F5FFF ;  
+  color:;
+}
+.rick img{
+    border: 2px solid lavenderblush;
+    padding-top: 12px;
+    box-shadow: 5px 10px #888888;
+}
+.row{
+    padding: 2.5rem;
+}
+body{
+    height: 1000px;
+}
+
+.fast{
+    background-color: #F2E1D9FF;
+    margin-top: 3%;
+    padding: 3rem;
+}
+.fast .row h5{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-shadow: 2px 2px #FF0000;
+}
+.fast .row p{
+    font-family:  "Poppins",sans-serif;
+    color: gray;
+    margin-top: 1rem;
+    text-shadow:  2px 1px 5px ;
+}
+
+
