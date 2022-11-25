@@ -1,0 +1,61 @@
+body {
+  height: 5000px;
+}
+
+.fresh {
+  margin-top: 3%;
+}
+.fresh .row .col-md-3 .icons {
+  background-color: #fdb44b;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+}
+.fresh .row .col-md-3 .icons span {
+  font-size: 2.1rem;
+  position: absolute;
+  left: 33%;
+  top: 30%;
+}
+.fresh .row .col-md-3 .text h3 {
+  font-family: "Playfair Display", Arial, sans-serif;
+  font-weight: 500;
+  color: #000;
+  font-size: 1.3rem;
+}
+.fresh .row .col-md-3 .text p {
+  color: gray;
+  font-family: "Playfair Display", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.textb {
+  text-align: center;
+  margin-top: 10%;
+}
+.textb h2 {
+  color: #000;
+  font-family: "Playfair Display", Arial, sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 1px 5px #ff0000;
+}
+.textb p {
+  margin-top: 1%;
+  text-shadow: 2px 1px 5px #ff0000;
+}
+
+.food {
+  margin-top: 5%;
+}
+.food .row .col-md-4 .foto img {
+  width: 50%;
+}
+.food .row .col-md-4 .textp {
+  background-color: #000;
+  width: 50%;
+  color: white;
+  padding: 40px;
+}/*# sourceMappingURL=style.css.map */
