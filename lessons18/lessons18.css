@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(67, 255, 15);
+}
+
+
+
+
+.daf{
+  margin-top: 1rem;
+}
+
+.daf .box .col-md-6{
+    height: 650px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 12px 13px 15px;
+    border-bottom: 2px solid black;
+  position: relative;
+    
+}
+ .col-md-6{
+  
+}
+.daf .col-md-6 h3 {
+    color: rgb(199, 121, 44);
+    text-shadow:3px 4px 6px   ;
+    margin-bottom: 1rem;
+
+}
+.daf .col-md-6 h1{
+    color: #1B1D32FF;
+    font-size: 2.5rem;
+    text-shadow:3px 3px 4px blueviolet ;
+    margin-bottom: 2.5rem;
+}
+.daf .col-md-6 .lorem{
+    letter-spacing: 3px;
+    text-shadow:1px 5px 4px;
+    margin-bottom: 4rem;
+    color: rgb(202, 10, 255);
+}
+.input{
+  letter-spacing: 2px;
+   
+
+}
+body{
+    height: 3000px;
+}
+.input label{
+    text-shadow:3px 3px 4px;
+    color: rgb(212, 0, 0);
+
+
+
+}
+.l{
+    border: 5px solid #21435FFF ;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: #21435FFF;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin-top: 1rem;
+}
+h2{
+    writing-mode: vertical-rl;
+    background-color: #205D7EFF ;
+    color: #FCE237FF;
+    paabsolutedding: 1rem;
+    position: absolute;
+    right: 870px;
+    bottom: 60px;
+    padding: 1rem;
+}
