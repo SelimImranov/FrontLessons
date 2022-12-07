@@ -1,0 +1,58 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+section{
+    background-color: #222222 ;
+    padding: 15px;
+   
+}
+
+
+  ul{
+   display: flex;
+   justify-content: space-between;
+}
+  ul li{
+    list-style: none;
+}
+ ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-shadow: 4px 4px 7px red;
+}
+  ul li::after{
+    content: "\f078";
+    font-family: "Font Awesome 6 free"  ;
+    font-weight: normal;
+    font-weight: 700;
+    color: white;
+}
+
+.pictures::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px;
+    z-index: 3000;
+    border-color: red;
+    border-width: 0 0 15px 15px ;
+   
+   
+
+  
+   
+   
+
+   
+
+
+}
+.linered{
+    border-bottom: 2px solid red  ;
+  
+}
+.lineblue{
+    border-bottom: 3px solid blue;
+}
