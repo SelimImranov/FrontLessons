@@ -1,0 +1,496 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@500&display=swap");
+body {
+  height: 1000px;
+}
+
+header {
+  position: fixed;
+  margin-top: 15px;
+  min-height: 190px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header nav {
+  background-color: #222222;
+  position: relative;
+  height: 60px;
+}
+.logo a{
+  position: relative;
+}
+
+.logo a::before{
+  content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 11px 11px;
+    border-color: #A88528 #A88528  #A88528 transparent;
+    position: absolute;
+    top: -16px;
+    left: -26px;
+}
+
+
+.logo a::after{
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border: 5px solid;
+  border-color: transparent transparent #A88528 #A88528;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+}
+
+
+header nav .row {
+  position: relative;
+}
+header nav .row .left {
+  left: 0;
+  text-align: right;
+  position: relative;
+  top: 0;
+}
+header nav .row .left .flex {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  min-height: 30px;
+  position: relative;
+}
+header nav .row .left .flex .item {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav .row .left .flex .item .block {
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+header nav .row .left .flex .item .block:hover {
+  color: #FFCA3C;
+}
+header nav .row .left .flex .item .block::after {
+  display: inline-block;
+  content: "\f107";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  height: 8px;
+  line-height: 8px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+header nav .row .left .flex .item .menu {
+  position: absolute;
+  display: none;
+  top: 55px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  float: left;
+  transition: all 0.5s ease 0s;
+  background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+header nav .row .left .flex .item .menu .note {
+  display: inline-block;
+  list-style: none;
+  clear: both;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+header nav .row .left .flex .item .menu .note a {
+  display: block;
+  width: 210px;
+  height: auto;
+  padding: 12px;
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  background: 0 0;
+  text-align: left;
+  text-transform: none;
+  line-height: 24px;
+  border: none;
+  margin: 0;
+  color: #666;
+  white-space: inherit;
+  border-bottom: 1px solid #f1f1f1;
+  font-style: normal;
+  text-decoration: none;
+}
+header nav .row .left .flex .item .menu .note a:hover {
+  color: white;
+}
+header nav .row .left .flex .item:hover .menu {
+  display: block;
+}
+header nav .row .left .flex .note:hover {
+  background-color: #222222;
+}
+header nav .row .logo {
+  top: -10px;
+  position: absolute;
+  background-color: #ffca3c;
+  min-height: 90px;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  padding: 15px 15px 0;
+}
+header nav .row .logo a {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+header nav .row .logo a img {
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: auto;
+  width: 100%;
+  max-height: 110px;
+  object-fit: contain;
+}
+header nav .row .logo::before {
+  border-color: #ffca3c transparent transparent #ffca3c;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: -40px;
+  border-width: 20px 50px;
+  border-style: solid;
+}
+header nav .row .logo::after {
+  border-color: #ffca3c #ffca3c transparent transparent;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  bottom: -40px;
+  border-width: 20px 50px;
+  border-style: solid;
+}
+header nav .row .right {
+  right: 0;
+  text-align: left;
+  position: relative;
+  top: 0;
+}
+header nav .row .right .flex {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  min-height: 30px;
+  position: relative;
+}
+header nav .row .right .flex .item {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav .row .right .flex .item .block {
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+header nav .row .right .flex .item .block:hover {
+  color: #FFCA3C;
+}
+header nav .row .right .flex .item .block2 {
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+header nav .row .right .flex .item .block2:hover {
+  color: #FFCA3C;
+}
+header nav .row .right .flex .item .block::after {
+  display: inline-block;
+  content: "\f107";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  height: 8px;
+  line-height: 8px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+header nav .row .right .flex .item .menu {
+  position: absolute;
+  display: none;
+  top: 55px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  float: left;
+  transition: all 0.5s ease 0s;
+  background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+header nav .row .right .flex .item .menu .note {
+  display: inline-block;
+  list-style: none;
+  clear: both;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+header nav .row .right .flex .item .menu .note a {
+  display: block;
+  width: 210px;
+  height: auto;
+  padding: 12px;
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  background: 0 0;
+  text-align: left;
+  text-transform: none;
+  line-height: 24px;
+  border: none;
+  margin: 0;
+  color: #666;
+  white-space: inherit;
+  border-bottom: 1px solid #f1f1f1;
+  font-style: normal;
+  text-decoration: none;
+}
+header nav .row .right .flex .item .menu .note a:hover {
+  color: white;
+}
+header nav .row .right .flex .item:hover .menu {
+  display: block;
+}
+header nav .row .right .flex .note:hover {
+  background-color: #222222;
+}
+
+@media screen and (max-width: 600px) {
+  .left .block {
+    color: #222222;
+  }
+  .right {
+    color: #222222;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+
+
+body{
+    background-color: #F9A900FF;
+    height: 5000px;
+}
+
+
+
+.burger{
+    margin-top: 7%;
+}
+
+.burger .col-md-6 .img{
+    background-image: url(sng.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.burger .col-md-6 h1{
+    font-size: 60px;
+    color: #ffffff;
+  font-weight: bold;
+  text-shadow:2px 4px 5px;
+}
+.burger .col-md-6 h3{
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 4px 5px;
+}
+.burger .col-md-6 p{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 2;
+    text-shadow: 2px 4px 5px;
+
+}
+.burger .col-md-6 button{
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F2002DFF;
+    margin-left: 20%;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+.burger .col-md-6 button:hover{
+    background-color: #222222;
+
+}
+.food .col-md-2{
+   height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+   
+  
+  box-shadow:  12px 15px 17px blueviolet;
+}
+.food .col-md-2 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1rem;
+    text-shadow: 2px 4px 6px blueviolet;
+    
+}
+.food{
+    margin-top: 7%;
+}
+
+
+.text{
+  margin-top: 5%;
+}
+ .text h1{
+  text-align: center;
+  color: #222222;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'rubik';
+}
+ .text p{
+  font-weight: bold;
+  text-align: center;
+  color: #666;
+  font-size: 20px;
+  font-family: 'rubik';
+}
+ .eat   img{
+  width: 95%;
+  border: 1px solid wheat;
+  margin-top: 5rem;
+  position: relative;
+}
+.eat{
+  background-color: white;
+  padding: 2%;
+  margin-top: 7%;
+}
+.textb h3{
+  color: #222222;
+  font-size: 1.1rem;
+margin-left: 4rem;
+margin-top: 1rem;
+
+}
+.textb p{
+  margin-left: 2.4rem;
+  font-size: 1rem;
+  color: gray;
+  line-height: 1.625rem;
+  margin-top: 1rem;
+
+  
+}
+.textb button{
+margin-left: 6rem  ;
+border-radius: 50px;
+padding: 7px;
+border: 2px solid gray;
+font-size: 10px;
+margin-top: 1rem;
+}
+.date{
+  position: absolute;
+ bottom: -95%;
+
+
+
+ background-color: #4D2C21FF;
+ color: white;
+ padding: 9px 20px;
+ border-radius: 8px;
+ 
+}
+.date span{
+  font-size: 16px;
+  position: absolute;
+  bottom: 44%;
+}
+.icon{
+   position: absolute;
+   right: 71%;
+    bottom: -94%;
+ 
+    
+}
+.services{
+  background-color: #FDFAEDFF;
+  margin-top: 14%;
+  padding: 5%;
+  
+}
+.pictures{
+  font-size: 4rem;
+    text-align: center;
+}
+.services h3{
+  text-align: center;
+  letter-spacing: 1;
+}
+.services p{
+  font-size: 1.2rem;
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+}
+.icon{
+  color: #FFCA3C;
+}
+
