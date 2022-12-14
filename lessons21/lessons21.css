@@ -1,0 +1,87 @@
+body{
+    height: 1000px;
+}
+.services{
+background-color: #FFFFFFFF ;    
+}
+
+
+
+.services .text {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.services .text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.services .text h4 {
+    color: #ffc446;
+    font-size: 16px;
+    letter-spacing: 10px;
+    margin-bottom: 1.2%;
+}
+
+.box {
+    height: 95px;
+    width: 95px;
+    border: 2px solid #ffc446;
+
+    border-radius: 10px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.box:hover {
+    background-color: #ffc446;
+}
+
+.icons {
+    transform: rotate(-45deg);
+    font-size: 2.4rem;
+    color: #ffc446;
+
+    display: inline-block;
+    position: relative;
+    
+    left: -3px;
+    margin-top: 1.3rem;
+    margin-left: 1.4rem;
+
+
+}
+
+.icons:hover {
+    color: rgb(242, 242, 242);
+}
+
+.textb {
+    margin-top: 5.3rem;
+    margin-left: 1rem;
+}
+
+.textb h3 {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textb p {
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .textb {
+        margin-left: 3rem;
+    }
+}
