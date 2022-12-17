@@ -1,0 +1,129 @@
+.corella{
+  margin-left: -4rem; 
+}
+.imgb{
+    
+}
+.imgbd{
+   
+}
+
+
+
+.text h2{
+    font-weight: bold; 
+
+    margin-top: 3rem;
+  
+}
+
+.imgbp:hover{
+    background-color: red;
+}
+.imgbp{
+    background: #efefef;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+
+    position: relative;
+ margin-top: 3rem;    
+}
+.imgbd{
+    background: #efefef;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+
+    position: relative;
+ margin-top: 3rem;    
+}
+.imgbd:hover{
+    background-color: blue;
+}
+.imgbe{
+    background: #efefef;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+
+    position: relative;
+ margin-top: 3rem;  
+}
+.imgbe:hover{
+    background-color: gray;
+}
+ul li{
+    margin-bottom: 10%;
+    list-style: none;
+    font-size: 1.3rem;
+}
+ul li:hover{
+    color: green;
+    
+}
+.corella  .imgb {
+    background: #efefef;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+
+    position: relative;
+ margin-top: 3rem;
+  
+}
+
+.corella   img {
+    border-radius: 25px;
+    transition: all 1s ease;
+    width: 70% !important;
+    margin: auto;
+    position: absolute;
+    left: 40px;
+    overflow: hidden;
+}
+.daff ul  li  span {
+    font-size: 1.1rem;
+    color: gray;
+    margin-bottom: 10%;
+    list-style: none;
+}
+i{
+    font-size: 0.9rem;
+}
+
+.imgb:hover {
+    background-color: green;
+ 
+
+
+}
+img:hover{
+    transform: rotate(6deg);
+ 
+ 
+   
+}
+@media (min-width:600px) and (max-width:1140px) {
+    .imgbp , .imgbe{
+        margin-left: 4rem;
+    }
+   
+
+}
+@media screen and (max-width: 600px){
+    .text{
+        margin-left: 2rem;
+    }
+    ul li{
+        margin-left: 2rem;
+    }
+}
