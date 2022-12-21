@@ -1,0 +1,62 @@
+.services {
+    margin-top: 5%;
+    background-color: currentColor;
+    padding: 3rem;
+}
+
+.col-lg-3 .box {
+    background-color: black;
+    width: 220px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.box i {
+    position: absolute;
+    top: 28px;
+    color: orange;
+    font-size: 3rem;
+    text-align: center;
+    right: 36px;
+}
+
+.box p {
+    position: absolute;
+    top: 82px;
+    left: 19px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.col-lg-4 .box {
+    background-color: black;
+    width: 220px;
+    height: 200px;
+    position: relative;
+}
+.box:hover{
+    background-color: #CDB30CFF;
+    transition: all 1s ease;
+   
+}
+.text p{
+letter-spacing: 1px;
+color: gray;
+}
+.text h1{
+    font-weight: bold;
+    color: white;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+
+    .box{
+        margin-bottom: 1rem;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .box{
+        margin-bottom: 1rem;
+    }
+ }
