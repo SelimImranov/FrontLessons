@@ -1,0 +1,228 @@
+body {
+    height: 5000px;
+
+    .ticketrezer {
+        .ticketinfo {
+            margin-top: 3rem;
+            width: 100%;
+
+            .ticket {
+                border: 1px solid #1f94b7;
+                border-radius: 5px;
+                padding: 1rem;
+                position: relative;
+
+                .openElement {
+                    img {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        right: 27px;
+                    }
+
+                }
+
+                .city {
+                    padding: 0 2rem;
+                }
+
+                .ticketlogo {
+                    margin-bottom: 1rem;
+                }
+
+                .hourdetails {
+                    position: relative;
+                    margin-top: 1rem;
+
+                    .hour {
+                        position: relative;
+                        bottom: 12px;
+                        font-size: 14px;
+                        color: #1f94b7;
+                        padding: 1 1rem;
+                    }
+
+                    .hour::after {
+                        content: "";
+                        position: absolute;
+                        bottom: -4px;
+                        border: 1px solid #1f94b7;
+                        left: 0;
+                        width: 100%;
+                    }
+
+                    .photo {
+                        transform: rotate(51deg);
+                    }
+
+                    .free {
+                        position: absolute;
+                        left: 38px;
+                        top: 15px;
+                        color: #ADED5A;
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+        .collapsebody {
+            .card-body {
+                padding: 2rem;
+                background-color: rgb(239, 242, 250);
+
+                .flight_time {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+
+                    .vl_line {
+                        width: 2px;
+                        height: 42px;
+                        background-color: rgb(165 168 174);
+                        margin: 0 2rem;
+                        position: relative;
+                    }
+
+                    .vl_line::before {
+                        content: "";
+                        border: 1px solid black;
+                        border-radius: 100%;
+                        width: 5px;
+                        height: 5px;
+                        padding: 5px;
+                        position: absolute;
+
+                        top: -11px;
+                        left: -4.3px;
+
+                    }
+
+                    .vl_line::after {
+                        content: "";
+                        border: 1px solid black;
+                        border-radius: 100%;
+                        width: 5px;
+                        height: 5px;
+                        padding: 5px;
+                        position: absolute;
+
+                        bottom: -11px;
+                        left: -4.3px;
+                    }
+
+
+                }
+
+                .flight {
+                    padding: 1rem;
+                    background-color: white;
+                    border-radius: 10px;
+                    color: red;
+                }
+            }
+        }
+
+        .planediva {
+            margin: 3rem;
+            background-color: rgb(239, 242, 250);
+            padding: 1rem;
+            position: relative;
+
+            .planebuy {
+                .text {
+                    p {
+                        color: rgb(255, 162, 0);
+                        padding-left: 23px;
+                    }
+
+                }
+
+                .opene {
+                    img {
+                        position: absolute;
+                        transform: rotate(180deg);
+                        left: 12px;
+
+                        top: 24px;
+                    }
+                }
+            }
+
+            .card-body {
+                background-color: rgb(239, 242, 250);
+                border: none;
+                margin-top: 1rem;
+                .bg-white{
+                  width: auto;
+                  background-color: white;
+                  color: gray;
+                }
+                .textbi{
+                    color: blue ;
+                    margin-top: 2rem;
+                    font-size: 1.1rem;
+                }
+                .lined{
+                   
+                }
+               
+
+                .flight_time {
+                    .icon {
+                        position: relative;
+
+                        .vl_line {
+                            width: 2px;
+                            height: 42px;
+                            background-color: rgb(165 168 174);
+                            margin: 0 2rem;
+                            position: absolute;
+                            left: -48px;
+                            top: 50px;
+
+                        }
+
+                        .vl_line::before {
+                            content: "";
+                            border: 1px solid black;
+                            border-radius: 100%;
+                            width: 5px;
+                            height: 5px;
+                            padding: 5px;
+                            position: absolute;
+
+                            top: -11px;
+                            left: -4.3px;
+
+                        }
+
+                        .vl_line::after {
+                            content: "";
+                            border: 1px solid black;
+                            border-radius: 100%;
+                            width: 5px;
+                            height: 5px;
+                            padding: 5px;
+                            position: absolute;
+
+                            bottom: -11px;
+                            left: -4.3px;
+                        }
+                    }
+                }
+                .flight_adress{
+                    .warsaw{
+                        
+                    }
+                }
+            }
+        }
+
+    }
+}
