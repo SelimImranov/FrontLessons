@@ -1,0 +1,161 @@
+.project {
+    background-color: #20484FFF;
+    height: 2000px;
+}
+
+.project .box .box1 img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.project .box {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.project .box .box1 {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    width: 42%;
+    border-radius: 12px;
+
+    padding: 1.4rem;
+    right: 44px;
+    top: 6rem;
+
+}
+
+.project .box .box2 {
+    background-color: white;
+    width: 50%;
+    border-radius: 12px;
+    position: absolute;
+    padding: 1rem;
+    left: -76px;
+    top: 5px;
+}
+
+.box2 h5 {
+    padding-top: 15px;
+}
+
+.box2 .form-check {
+    padding-bottom: 1rem;
+}
+
+.box2 p {
+    padding-top: 13px;
+}
+
+.box2 button {
+    width: 100%;
+    background-color: #B8E4DAFF;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.project .box .box3 {
+    position: absolute;
+    background-color: white;
+  
+    width: 80%;
+    border-radius: 12px;
+    padding: 1rem;
+    top: 25rem;
+}
+.project .box .box3 i{
+    
+    font-size: 2.2rem;
+    border: 1px solid green;
+    padding: 1rem;
+    border-radius: 50%;
+    color: green;
+    background-color: #DCF2EDFF;
+}
+.project .box .box3 h4{
+   display: inline-flex;
+} 
+
+form {
+    display: flex;
+}
+
+.searchform a {
+    background-color: #ff5f13;
+    padding: 1rem;
+    /* margin-top: 0rem; */
+    display: block;
+    color: white;
+    text-decoration: none
+}
+
+.inputform input {
+    
+    padding-left: 20px;
+    /* padding: 3rem; */
+    border: none;
+    border-radius-: 5px;
+    /* width: 96%; */
+    height: 57px;
+    /* width: 100%; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.project .text{
+    color: white;
+    padding-top: 7rem;
+}
+.project .text h1{
+    font-weight: bold;
+    padding-bottom: 1rem;;
+    color: darkseagreen;
+    text-shadow: 4px 5px 11px
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        position: relative;
+    }
+
+    .project .box .box2 {
+        left: 0px;
+        position: absolute;
+        right: 0;
+    }
+
+    .project .box .box1 {
+        right: -6px;
+
+    }
+    .project .text{
+        display: none;
+    }
+    .project .box .box3{
+        top: 29rem;
+    }
+}
+
+@media (min-width:600px) and (max-width:1140px) {
+    .box {
+        position: relative;
+    }
+
+    .project .box .box2 {
+        left: 0px;
+        position: absolute;
+    }
+    .project .box .box1 {
+        right: -6px;
+
+    }
+    .project .text{
+        display: none;
+    }
+}
